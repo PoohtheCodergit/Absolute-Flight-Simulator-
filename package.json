@@ -1,0 +1,23 @@
+{
+  "name": "bundler11",
+  "version": "1.0.0",
+  "description": "packae for thing",
+  "keywords": [
+    "lala"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "license": "ISC",
+  "author": "Ivan Edem",
+  "type": "module",
+  "scripts": {
+    "test": "npm init"
+  },
+  "dependencies": {
+    "cannon-es": "^0.20.0",
+    "dat.gui": "^0.7.9",
+    "three": "^0.185.1"
+  }
+}
