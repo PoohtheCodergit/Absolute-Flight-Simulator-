@@ -228,7 +228,7 @@ for (let i = 0; i < 20000; i++) {
 
   plane.updateMatrixWorld(true);
 // ===== Gear Contact Point Debug =====
-
+/*
 const sphereGeometry =
   new THREE.SphereGeometry(2);
 
@@ -259,7 +259,7 @@ const rightSphere =
 planeParts["NoseTyres"]?.add(noseSphere);
 planeParts["WheelsA"]?.add(leftSphere);
 planeParts["WheelsB1"]?.add(rightSphere);
-
+ */
   const bbox =
     new THREE.Box3()
       .setFromObject(plane);
